@@ -1,0 +1,27 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.primary-navigation:hover{
+    @apply bg-green-200;
+}
+
+.active-navigation-link{
+    @apply bg-gray-100;
+}
+
+.text-hover-navigation{
+    @apply text-black;
+}
+
+.blob
+{
+    animation: hue-animation 5s alternate infinite;
+}
+
+@keyframes hue-animation {
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
